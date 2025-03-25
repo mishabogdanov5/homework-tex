@@ -1,0 +1,71 @@
+\documentclass{article}
+
+\usepackage[fleqn]{amsmath}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm, compat=1.5}
+
+\usetikzlibrary{angles, quotes}
+\setmainfont{DejaVu Sans}
+
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    left=2cm,
+    right=1cm,
+    top=2cm,
+    bottom=2cm
+}
+\begin{document}
+
+{\fontsize{16}{14} \selectfont Памятка для решения задач на место цифры в числе}
+
+\vspace{1cm}
+
+{\fontsize{12}{12} \selectfont 12456778,1293 = \scalebox{1.2}{$\frac{3}{10000} + \frac{9}{1000} + \frac{2}{100} + \frac{1}{10} + $}
+
+\vspace{0.4cm}
+
+
+\scalebox{1.1}{$8 + 7 \cdot 10 + 7 \cdot 100 + 6 \cdot 1000 + 5 \cdot 10000 + 4 \cdot 100000 + 2 \cdot 1000000 + 1 \cdot 10000000$}
+
+\vspace{0.7cm}
+
+Чтобы найти какую-либо подчеркнутую цифру, смотрим на запись выше и выбираем слогаемое, которое соответствует этой цифре
+
+
+\vspace{0.8cm}
+
+
+\underline{Примеры}: 
+
+
+\vspace{1cm}
+
+1.\ \underline{1}67,121 = \scalebox{1.2}{$\frac{1}{1000} + \frac{2}{100} + \frac{1}{10} + 7 + 6 \cdot 10 + \underline{1 \cdot 100}$}
+
+
+\vspace{0.3cm}
+\underline{Ответ}: 100.
+
+\vspace{0.7cm}
+
+2.\ 34,122\underline{8} = \scalebox{1.2}{$\underline{\frac{8}{10000}} + \frac{2}{1000} + \frac{2}{100}$}.\.\.\
+
+\vspace{0.3cm}
+
+\underline{Ответ}: \scalebox{1.2}{$\frac{8}{1000}$}.
+
+\vspace{0.7cm}
+
+3.\ 321,5\underline{9}074 = \scalebox{1.2}{$\frac{4}{100000} + \frac{7}{10000} + \frac{0}{1000} + \underline{\frac{9}{100}} + \frac{5}{10}$}.\.\.\ 
+
+\vspace{0.3cm}
+
+\underline{Ответ}: \scalebox{1.2}{$\frac{9}{100}$}
+}
+\end{document}
