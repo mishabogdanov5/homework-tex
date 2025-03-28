@@ -1,1 +1,20 @@
 **/:Zone.Identifier
+# Bibliography and indexing
+*.acn
+*.aux
+*.log
+*.gz
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+
+# Output formats (exclude if you regenerate them)
+*.dvi
+*.ps
+*.pdf
